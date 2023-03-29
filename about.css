@@ -57,27 +57,55 @@ background-color: lightgray;
   }
   .picture img{
    border-top-left-radius: 150px;
-    /* border-left-right-radius: 80px; */
+    
     border-bottom-right-radius: 150px;
   }
   .pictre img{
     border-top-left-radius: 150px; 
     border-bottom-right-radius: 150px;
-    margin-left: 200px;
+    
   }
   .continue img{
     border-top-left-radius: 150px; 
-    border-bottom-right-radius: 150px;  
+    border-bottom-right-radius: 150px; 
+    
   }
   .page{
     display: flex;
   }
-  .merge{
-    text-align: center;
-  }
+  
   .page1{
     display: flex;
+    margin-top: 100px;
   }
+  .page2{
+    display: flex;
+    margin-top: 100px;
+  }
+  @media(max-width:1200px){
+    body{
+
+    }
+}
+@media(max-width:992px){
+    body{
+
+    }
+}
+@media(max-width:768px){
+    body{
+
+    }
+}
+@media(max-width:576px){
+    body{
+        
+    }
+}
+
+  
+
+  
 
 
   
